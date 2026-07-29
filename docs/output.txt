@@ -1,0 +1,57 @@
+First 5 Rows
+
+                                                text label       id
+0  My favourite food is anything I didn't have to...    27  eebbqej
+1  Now if he does off himself, everyone will thin...    27  ed00q6i
+2                     WHY THE FUCK IS BAYLESS ISOING     2  eezlygj
+3                        To make her feel threatened    14  ed7ypvh
+4                             Dirty Southern Wankers     3  ed0bdzj
+
+----------------------------
+Shape
+(43410, 3)
+
+----------------------------
+Columns
+Index(['text', 'label', 'id'], dtype='str')
+
+----------------------------
+Data Types
+text     str
+label    str
+id       str
+dtype: object
+
+----------------------------
+Missing Values
+text     0
+label    0
+id       0
+dtype: int64
+
+----------------------------
+Info
+<class 'pandas.DataFrame'>
+RangeIndex: 43410 entries, 0 to 43409
+Data columns (total 3 columns):
+ #   Column  Non-Null Count  Dtype
+---  ------  --------------  -----
+ 0   text    43410 non-null  str  
+ 1   label   43410 non-null  str  
+ 2   id      43410 non-null  str  
+dtypes: str(3)
+memory usage: 1017.6 KB
+
+
+
+
+
+       My favourite food is anything I didn't have to cook myself.     27  eebbqej
+count                                               43409           43409    43409
+unique                                              43226             711    43409
+top                                            Thank you.              27  ed00q6i
+freq                                                   13           12822        1
+
+
+
+
